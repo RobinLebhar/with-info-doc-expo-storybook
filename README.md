@@ -1,21 +1,18 @@
 # with-info-doc-expo-storybook
 
-# Disclaimer 
-Feel free to improve anything in this code, it's been done in few hours.
-All of this is just a way to wait for a real addon.
-
 # What is it 
 
-It's an alternative to storybook-addon-info but for react native.
-You'll find a component you can wrap around the components of your stories to get documentation.
+It's an alternative to storybook-addon-info for react native that does not exist yet.
+You'll find a component you can wrap around the components of your stories to get auto generated documentation.
 
 It includes : 
 - A component preview
 - A table of the component's props
 - A clickable source code ( it will be copied to clipboard)
 
-![Alt text](screen2.png?raw=true "Storybook expo menu")
-![Alt text](screen1.png?raw=true "WithDocInfo component")
+# Disclaimer 
+Feel free to improve anything in this code, it's been done in few hours.
+All of this is just a way to wait for a real addon.
 
 
 # Getting started 
@@ -68,7 +65,7 @@ export default storiesOf("Button", module).add("Simple fake button", () => {
 });
   ```
   
- # The props types column
+ # The "Type" column
   
   
 You'll notice that if the props is made of nested attribute, you'll not get a "pretty type"  but a description of the type so it's more verbose :/ I did not have the time to recontruct the json to get "pretty types" descriptions
