@@ -16,12 +16,13 @@ It includes :
  ```npm install to-json-schema react-syntax-highlighter react-native-table-component jsx-to-string```
 - Add with-info-doc/ to storybook/
 - Create your .stories in storybook/stories/
-- Wrap <WithInfoDoc/> around your component
-- Export your stories in storybook/stories/index.tsx ( I have to export them manually because storybook does not find my  .stories )
+- Wrap ```<WithInfoDoc/>``` around your component
+- Export your stories in storybook/stories/index.tsx ( I have to export them manually because storybook does not find my  .stories with expo)
 
 # Add more info to the Props table
 
-You can add manually a description and if the props are required or not ( see [this example](#https://github.com/RobinLebhar/with-info-doc-expo-storybook/blob/master/example-with-extra-info.stories.tsx) )
+You can add manually add a description and if the props are required or not.
+( see [this example](#https://github.com/RobinLebhar/with-info-doc-expo-storybook/blob/master/example-with-extra-info.stories.tsx) )
 Or just a simple example [here](#https://github.com/RobinLebhar/with-info-doc-expo-storybook/blob/master/example.stories.tsx)
 
 
