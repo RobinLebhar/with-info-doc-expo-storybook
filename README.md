@@ -10,6 +10,9 @@ It includes :
 - A table of the component's props
 - A clickable source code ( it will be copied to clipboard)
 
+![](with-doc-info.gif)
+
+
 # Disclaimer 
 Feel free to improve anything in this code, it's been done in few hours.
 All of this is just a way to wait for a real addon.
