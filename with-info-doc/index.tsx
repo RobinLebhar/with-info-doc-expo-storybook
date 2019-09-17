@@ -94,7 +94,6 @@ export default class WithInfoDoc extends React.Component<Props, WithInfoDocState
   )
   private renderSourceCode = () => (
     <View style={{ justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ fontSize: 23, marginBottom: 20 }}> Source (press to copy) </Text>
       <SyntaxHighlighter
         language='jsx'
         highlighter={"prism"}
@@ -123,8 +122,8 @@ export default class WithInfoDoc extends React.Component<Props, WithInfoDocState
           {this.renderTableProps()}
         </ScrollView>
         {this.divider()}
-
-        <ScrollView horizontal>
+        <View style={{ alignItems: "center" }}><Text style={{ fontSize: 23, marginBottom: 20 }}> Source (press to copy) </Text></View>
+        <ScrollView horizontal style={{ maxWidth: 400 }}>
           <TouchableOpacity onPress={this.copyCodeToClipBoard}>
             {this.renderSourceCode()}
           </TouchableOpacity>
