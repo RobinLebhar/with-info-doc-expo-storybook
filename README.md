@@ -1,5 +1,9 @@
 # with-info-doc-expo-storybook
 
+# Disclaimer 
+Feel free to improve anything in this code, it's been done in few hours.
+All of this is just a way to wait for a real addon.
+
 # What is it 
 
 It's an alternative to storybook-addon-info but for react native.
@@ -24,12 +28,11 @@ It includes :
 
 # Add more info to the Props table
 
-You can add manually add a description and if the props are required or not.
+You can add manually add a description and if the props is required or not.
 ( see [this example](#https://github.com/RobinLebhar/with-info-doc-expo-storybook/blob/master/example-with-extra-info.stories.tsx) )
 Or just a simple example [here](#https://github.com/RobinLebhar/with-info-doc-expo-storybook/blob/master/example.stories.tsx)
 
-
-Note about the props types : When the props is made of nested attribute, you'll see that's it's actually metadata type that are written in the table, ( I couldn't find a way to get the description and if the field is required so I have to use an external library 
+( I couldn't find a way to get the description and if the field is required so I have to use an external library 
 
 example to add description and props required or not (these 2 are optionals)
 
@@ -65,3 +68,12 @@ export default storiesOf("Button", module).add("Simple fake button", () => {
 });
   ```
   
+ # The props types column
+  
+  
+You'll notice that if the props is made of nested attribute, you'll not get a "pretty type"  but a description of the type so it's more verbose :/ I did not have the time to recontruct the json to get "pretty types" descriptions
+
+  
+ Not perfect at all you know it's better than nothing. 
+  
+
