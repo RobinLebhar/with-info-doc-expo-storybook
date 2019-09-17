@@ -26,11 +26,10 @@ All of this is just a way to wait for a real addon.
 - Wrap ```<WithInfoDoc/>``` around your component
 - Export your stories in storybook/stories/index.tsx ( I have to export them manually because storybook does not find my  .stories with expo)
 
-# Add mofd info to the Props table
+# Add more info to the Props table
 
 In the props table you can manually add a description and if the props is required or not.
-( see [this example](#https://github.com/RobinLebhar/with-info-doc-expo-storybook/blob/master/example-with-extra-info.stories.tsx) )
-Or just a simple example [here](#https://github.com/RobinLebhar/with-info-doc-expo-storybook/blob/master/example.stories.tsx)
+Take a look at example-with-extra-info.stories.tsx orjust a simple example without extra doc in example.stories.tsx
 
 ( I couldn't find a way to get the description and if the field is required so I have to use an external library 
 
