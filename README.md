@@ -3,6 +3,7 @@
 # What is it 
 
 It's an alternative to storybook-addon-info for react native that does not exist yet.
+I tried it with expo (34) ,storybook 5 and typescript.
 You'll find a component you can wrap around the components of your stories to get auto generated documentation.
 
 It includes : 
@@ -19,6 +20,7 @@ All of this is just a way to wait for a real addon.
 
 
 # Getting started 
+- You'll need storybook ( don't forget to render storybook/StorybookUIRoot.tsx somewhere to see storybook book UI appear)
 - In your react native project :
  ```npm install to-json-schema react-syntax-highlighter react-native-table-component jsx-to-string```
 - Add with-info-doc/ to storybook/
