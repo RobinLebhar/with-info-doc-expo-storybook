@@ -10,6 +10,9 @@ It includes :
 - A table of the component's props
 - A clickable source code ( it will be copied to clipboard)
 
+![Alt text](screen2.png?raw=true "Storybook expo menu")
+![Alt text](screen1.png?raw=true "WithDocInfo component")
+
 
 # Getting started 
 - In your react native project :
