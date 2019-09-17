@@ -123,9 +123,13 @@ export default class WithInfoDoc extends React.Component<Props, WithInfoDocState
           {this.renderTableProps()}
         </ScrollView>
         {this.divider()}
-        <TouchableOpacity onPress={this.copyCodeToClipBoard}>
-          {this.renderSourceCode()}
-        </TouchableOpacity>
+
+        <ScrollView horizontal>
+          <TouchableOpacity onPress={this.copyCodeToClipBoard}>
+            {this.renderSourceCode()}
+          </TouchableOpacity>
+
+        </ScrollView>
       </ScrollView >
     )
   }
