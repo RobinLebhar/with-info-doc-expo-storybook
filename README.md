@@ -34,6 +34,11 @@ Note about the props types : When the props is made of nested attribute, you'll 
 example to add description and props required or not (these 2 are optionals)
 
 ```
+import React from "react";
+import { storiesOf } from "@storybook/react-native";
+import WithInfoDoc, { IPropsDoc } from '../with-info-doc/index';
+import SimpleFakeButton from "../../src/components/simple-fake-button";
+
 export default storiesOf("Button", module).add("Simple fake button", () => {
   const propsDoc: IPropsDoc = {
     props1: { description: " this is the description for the props1", isRequired: true },
