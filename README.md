@@ -3,7 +3,7 @@
 # What is it 
 
 It's an alternative to storybook-addon-info for react native that does not exist yet.
-I tried it with expo (34) ,storybook 5 and typescript.
+I tried it with expo (34) ,storybook 5 and typescript. (It should also work with pure react-native)
 You'll find a component you can wrap around the components of your stories to get auto generated documentation.
 
 It includes : 
