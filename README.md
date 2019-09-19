@@ -23,7 +23,7 @@ All of this is just a way to wait for a real addon.
 - You'll need storybook ( don't forget to render storybook/StorybookUIRoot.tsx somewhere to see storybook book UI appear)
 - In your react native project :
  ```npm install to-json-schema react-syntax-highlighter react-native-table-component jsx-to-string```
-- Add with-info-doc/ to storybook/
+- Add the folder with-info-doc/ to storybook/
 - Create your .stories in storybook/stories/
 - Wrap ```<WithInfoDoc/>``` around your component
 - Export your stories in storybook/stories/index.tsx ( I have to export them manually because storybook does not find my  .stories with expo)
