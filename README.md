@@ -28,6 +28,22 @@ All of this is just a way to wait for a real addon.
 - Wrap ```<WithInfoDoc/>``` around your component
 - Export your stories in storybook/stories/index.tsx ( I have to export them manually because storybook does not find my  .stories with expo)
 
+# Example
+
+``` 
+import React from "react";
+import { Text } from "react-native"
+import { storiesOf } from "@storybook/react-native";
+import WithInfoDoc from '../with-info-doc/index';
+
+export default storiesOf("Text", module).add("Simple fake text", () => {
+  return (
+    <WithInfoDoc>
+      <Text>It kind of works</Text>
+    </WithInfoDoc>
+  )
+});
+```
 # Add more info to the Props table
 
 In the props table you can manually add a description and if the props is required or not.
