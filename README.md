@@ -75,6 +75,6 @@ export default storiesOf("Button", module).add("Simple fake button", () => {
 You'll notice that if the props is made of nested attribute, you'll not get a "pretty type"  but a description of the type so it's more verbose :/ I did not have the time to recontruct the json to get "pretty types" descriptions
 
   
- Not perfect at all you know it's better than nothing. 
+ Not perfect at all, butyou know it's better than nothing. 
   
 
